@@ -1,0 +1,6 @@
+﻿  SceneGrid.cpp
+c:\users\dd\documents\visual studio 2017\projects\5c1700_03_dx9(180611수정)\dx3dtest\sample\viewporttest.h(37): warning C4244: '=': 'float'에서 'DWORD'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\dd\documents\visual studio 2017\projects\5c1700_03_dx9(180611수정)\dx3dtest\sample\mipmapfilter.h(24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\dd\documents\visual studio 2017\projects\5c1700_03_dx9(180611수정)\dx3dtest\sample\mipmapfilter.h(47): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\dd\documents\visual studio 2017\projects\5c1700_03_dx9(180611수정)\dx3dtest\scene\scenegrid.cpp(53): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  DX3DTest.vcxproj -> C:\Users\DD\Documents\Visual Studio 2017\projects\5C1700_03_DX9(180611수정)\Debug\DX9.exe

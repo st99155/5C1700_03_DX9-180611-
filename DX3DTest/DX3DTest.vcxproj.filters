@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Source Files\1.Main">
+      <UniqueIdentifier>{c95df676-ae98-495e-9618-0dc9ddcdcb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3.Object">
+      <UniqueIdentifier>{23dcd468-0105-48f8-8495-65caf861c0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\4.Scenes">
+      <UniqueIdentifier>{d09c0ee8-af51-4484-9bdb-df47f494c29f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3.Object\Action">
+      <UniqueIdentifier>{ca2c7089-79ba-4983-9594-2a4e42c6a4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2.Manager">
+      <UniqueIdentifier>{a0c20171-b80e-4c1b-b747-81709ba381b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\0.System">
+      <UniqueIdentifier>{39f032cf-8e09-4bb3-b383-6a7c831e0a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3.Object\_interface">
+      <UniqueIdentifier>{e5eb759c-6f58-4679-9126-671f8ba10153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3.Object\Samples">
+      <UniqueIdentifier>{ed2d1074-ca51-4a09-adaa-57954f28edd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3.Object\Samples\cube">
+      <UniqueIdentifier>{e9af7292-04d1-4b83-bd07-e070ea3a8ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3.Object\Samples\grid">
+      <UniqueIdentifier>{a4ff82ba-4bb5-4fd4-bd5f-41733a7c64ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3.Object\Model">
+      <UniqueIdentifier>{7fdea6aa-be54-437c-ae76-cca015a98108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3.Object\Model\Obj">
+      <UniqueIdentifier>{5be4576c-3975-4cdd-9dc7-4de17e19a80e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX3DTest.h">
+      <Filter>Source Files\1.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefinition.h">
+      <Filter>Source Files\1.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files\1.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files\1.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files\1.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Keyboard.h">
+      <Filter>Source Files\0.System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Mouse.h">
+      <Filter>Source Files\0.System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Debug.h">
+      <Filter>Source Files\0.System</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Source Files\1.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Window.h">
+      <Filter>Source Files\0.System</Filter>
+    </ClInclude>
+    <ClInclude Include="system\DX.h">
+      <Filter>Source Files\0.System</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Time.h">
+      <Filter>Source Files\0.System</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\FontManager.h">
+      <Filter>Source Files\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\ObjectManager.h">
+      <Filter>Source Files\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\SceneManager.h">
+      <Filter>Source Files\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\TextureManager.h">
+      <Filter>Source Files\2.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="object\interface\IDisplayObject.h">
+      <Filter>Source Files\3.Object\_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="object\interface\IObject.h">
+      <Filter>Source Files\3.Object\_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="object\interface\IScene.h">
+      <Filter>Source Files\3.Object\_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="object\action\ActionMoveTo.h">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="object\action\ActionRepeat.h">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="object\action\ActionSequence.h">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="object\action\IAction.h">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="object\action\IActionObject.h">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Camera.h">
+      <Filter>Source Files\0.System</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\SceneGrid.h">
+      <Filter>Source Files\4.Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\cube\ColorCube.h">
+      <Filter>Source Files\3.Object\Samples\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\grid\Grid.h">
+      <Filter>Source Files\3.Object\Samples\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\cube\CubemanParts.h">
+      <Filter>Source Files\3.Object\Samples\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\cube\Cubeman.h">
+      <Filter>Source Files\3.Object\Samples\cube</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\ViewportTest.h">
+      <Filter>Source Files\3.Object\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\grid\Wall.h">
+      <Filter>Source Files\3.Object\Samples\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\MipmapFilter.h">
+      <Filter>Source Files\3.Object\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="sample\grid\Hexagon.h">
+      <Filter>Source Files\3.Object\Samples\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLoader.h">
+      <Filter>Source Files\3.Object\Model\Obj</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DX3DTest.cpp">
+      <Filter>Source Files\1.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\1.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalDefinition.cpp">
+      <Filter>Source Files\1.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Keyboard.cpp">
+      <Filter>Source Files\0.System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Mouse.cpp">
+      <Filter>Source Files\0.System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Debug.cpp">
+      <Filter>Source Files\0.System</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\1.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Window.cpp">
+      <Filter>Source Files\0.System</Filter>
+    </ClCompile>
+    <ClCompile Include="system\DX.cpp">
+      <Filter>Source Files\0.System</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Time.cpp">
+      <Filter>Source Files\0.System</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\FontManager.cpp">
+      <Filter>Source Files\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\ObjectManager.cpp">
+      <Filter>Source Files\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\SceneManager.cpp">
+      <Filter>Source Files\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="manager\TextureManager.cpp">
+      <Filter>Source Files\2.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="object\interface\IDisplayObject.cpp">
+      <Filter>Source Files\3.Object\_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="object\interface\IObject.cpp">
+      <Filter>Source Files\3.Object\_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="object\action\ActionMoveTo.cpp">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="object\action\ActionRepeat.cpp">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="object\action\ActionSequence.cpp">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="object\action\IAction.cpp">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="object\action\IActionObject.cpp">
+      <Filter>Source Files\3.Object\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Camera.cpp">
+      <Filter>Source Files\0.System</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\SceneGrid.cpp">
+      <Filter>Source Files\4.Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="sample\cube\ColorCube.cpp">
+      <Filter>Source Files\3.Object\Samples\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="sample\grid\Grid.cpp">
+      <Filter>Source Files\3.Object\Samples\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="sample\cube\CubemanParts.cpp">
+      <Filter>Source Files\3.Object\Samples\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="sample\cube\Cubeman.cpp">
+      <Filter>Source Files\3.Object\Samples\cube</Filter>
+    </ClCompile>
+    <ClCompile Include="sample\grid\Wall.cpp">
+      <Filter>Source Files\3.Object\Samples\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="sample\grid\Hexagon.cpp" />
+    <ClCompile Include="ObjLoader.cpp">
+      <Filter>Source Files\3.Object\Model\Obj</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX3DTest.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DX3DTest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
